@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * Hoa
  *
@@ -40,11 +42,6 @@ use Hoa\Consistency;
 
 /**
  * Class \Hoa\Promise\Promise.
- *
- *
- *
- * @copyright  Copyright © 2007-2017 Hoa community
- * @license    New BSD License
  */
 class Promise
 {
@@ -241,4 +238,4 @@ class Promise
 /**
  * Flex entity.
  */
-Consistency::flexEntity('Hoa\Promise\Promise');
+Consistency::flexEntity(Promise::class);
