@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hoa\\Promise\\": "."
+            "Hoa\\Promise\\": "Source"
         }
     },
     "extra": {
